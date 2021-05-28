@@ -1,0 +1,100 @@
+<!--Final 20-09-06 scbt -->
+<html>
+
+<!-- Mirrored from www.segurosinbursa.com.mx/gestor/alumnos/interfaz/simulador_examena/simulador/Sco_04/sco.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 May 2021 23:44:23 GMT -->
+<head>
+<title>
+Sistemas CBT - Objeto de aprendizaje
+</title>
+<script language="JavaScript">
+<!--
+
+var referenciaDeVentana = new Array();
+
+function abrirVentanaPredeterminada ( ref , nombre , num, dimensiones ) {
+            if ( referenciaDeVentana[num] ) {
+                                  if ( referenciaDeVentana[num].open && !referenciaDeVentana[num].closed ) {
+                                                              referenciaDeVentana[num].focus();
+                                  }
+                                  else{
+                                            referenciaDeVentana[num]=window.open( ref , nombre , dimensiones);
+                                }
+          }
+
+          else {
+                                referenciaDeVentana[num]=window.open( ref , nombre , dimensiones);
+          }
+}
+
+
+
+
+function abrirRecursos (){
+abrirVentanaPredeterminada( "opciones/recursos.html","_recursos",1 , "width=785,height=535, resizable=1" ) ;
+
+}
+
+
+function abrirAyuda () {
+abrirVentanaPredeterminada( "opciones/ayuda.html","_ayuda",2 , "width=640,height=480, resizable=1") ;
+
+}
+
+
+function abrirLiga (ref) {
+
+abrirVentanaPredeterminada( ref,"_liga",3) ;
+
+}
+
+
+
+-->
+</script>
+
+<script src="script/lmsrte.js" language="JavaScript"></script>
+
+<SCRIPT LANGUAGE="VBScript">
+<!-- 
+Sub mySco_FSCommand(ByVal command, ByVal args)
+    call mySco_DoFSCommand(command, args)
+end sub
+// -->
+</SCRIPT>
+
+
+</head>
+
+<body bgcolor="#000000" SCROLL="no" topmargin='0' bottommargin='0' leftmargin='0' marginheight='0' marginwidth='0'>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" name="mySco" width="100%" height="100%" hspace="0" vspace="0" id="mySco">
+  <param name="movie" value="sco.swf">
+  <param name="quality" value="high">
+  <param name="menu" value="false">
+<embed src="sco.swf" width="100%" height="100%" hspace="0" vspace="0"  quality="high" NAME="mySco" ID="mySco" swLiveConnect="true" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" menu="false"></embed></object>
+</body>
+
+<script language="javascript">
+<!--
+var movieName = "mySco";
+
+function elSco(movieName) {
+  // IE y Netscape hacen referencia de manera distinta
+  // Esta funcion retorna la referencia correcta dependiendo del navegador
+  if (navigator.appName.indexOf ("Microsoft") !=-1) {
+    return window[movieName]
+  } else {
+    return document[movieName]
+  }
+}
+
+  miSesion.setMovie(elSco(movieName));
+
+-->
+
+</script>
+
+
+
+
+<!-- Mirrored from www.segurosinbursa.com.mx/gestor/alumnos/interfaz/simulador_examena/simulador/Sco_04/sco.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 May 2021 23:44:25 GMT -->
+</html>

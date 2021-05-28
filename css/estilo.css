@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+#contenedor{
+	width:800px;
+	height:600px;
+	margin:auto;
+}
+
+
+#header{
+	background-image:url(../images/logo.jpg);
+	background-repeat:no-repeat;
+	width:800px;
+	height:90px;
+	margin:auto;
+}
+
+#titulo{
+	margin-top:40px;
+	width:50%;
+	float:right;
+}
+
+.titulo1, .titulo2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:32px;
+	font-stretch:extra-condensed;
+	font-weight:bolder;
+}
+
+.titulo1{
+	margin-left:10px;
+	color:#000;
+}
+
+.titulo2{
+	color:#999;
+}
+
+#contenido{
+	padding-top:175px;
+	background-image:url(../images/back.gif);
+	width:800px;
+	height:600px;
+	background-repeat:no-repeat;
+}
+
+<!-- estilos para el menu ------------------>
+
+#navcontainer
+{
+	width:100%;
+}
+
+#navcontainer ul
+{
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#navcontainer li
+{
+	border-bottom: 1px solid #FFF;
+	margin: 0;
+}
+
+#navcontainer li a
+{
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	/*border-left: 10px solid #CCC;
+	border-right: 10px solid #CCC;*/
+	background-color:#036;
+	color: #fff;
+	text-decoration: none;
+}
+#navcontainer li a:hover
+{
+	border-left: 10px solid #036;
+	border-right: 10px solid #036;
+	background-color:#069;
+	color:#FFF;
+}
+
+#navcontainer li a:visited
+{
+	border-left: 10px solid #036;
+	border-right: 10px solid #036;
+	background-color:#069;
+	color:#FFF;
+}
